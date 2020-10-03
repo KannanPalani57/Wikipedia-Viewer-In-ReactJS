@@ -1,11 +1,14 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css';
 import SearchField from "./Components/SearchField"
-import axios from 'axios';
 
 function App() {
   return (
+     <div>
      <SearchField />
+     <footer>
+            </footer>
+     </div>
   );
 }
 
